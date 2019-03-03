@@ -13,11 +13,5 @@
   "background_color": "#ffffff",
   "scope": "/",
   "start_url":"https://nik2490.github.io",
-  "prefer_related_applications": false,
-  "related_applications": [
-  {
-    "platform": "play",
-    "id": "com.google.samples.apps.iosched"
-  }
-]
+  "prefer_related_applications": false
 }
