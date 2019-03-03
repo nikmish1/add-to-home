@@ -4,7 +4,7 @@ self.addEventListener( 'install', function () {
   
 self.addEventListener( 'fetch', function(event) {
     var url = event.request.url;
-  
+    console.log("add to home screen fired...");
     if ( url.indexOf( 'blocking' ) === -1) {
     return;
     }
