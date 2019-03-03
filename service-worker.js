@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nik2490/add-to-home/precache-manifest.2eed636918d3f301035cddda8196a12f.js"
+  "/add-to-home/precache-manifest.5ea5e8a6813c34577739ab4e4b6f4bbb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/nik2490/add-to-home/index.html", {
+workbox.routing.registerNavigationRoute("/add-to-home/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
