@@ -16,7 +16,7 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
+  "description": "lojaportaldotricot TESTE",
   "scope": "/",
-  "start_url":"https://nik2490.github.io/add-to-home/",
-  "prefer_related_applications": false
+  "start_url":"https://nik2490.github.io/add-to-home/"
 }
