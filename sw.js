@@ -2,7 +2,7 @@
 
 self.addEventListener('install', function (e) {
   e.waitUntil(
-    caches.open('airhorner').then(function (cache) {
+    caches.open('addToHome').then(function (cache) {
       return cache.addAll([
         '/add-to-home/index.html',
         '/add-to-home/index.html?homescreen=1'
