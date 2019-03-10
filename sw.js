@@ -13,7 +13,7 @@ self.addEventListener('install', function (e) {
   );
 });
 
-self.addEventListener('fetch', function (event) {
+/*self.addEventListener('fetch', function (event) {
   console.log(event.request.url);
 
   event.respondWith(
@@ -21,4 +21,9 @@ self.addEventListener('fetch', function (event) {
       return response || fetch(event.request);
     })
   );
+});*/
+
+self.addEventListener("fetch", function(event){
+  console.log(event.request.url);
+
 });
