@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="shortcut icon" href="/add-to-home/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="theme-color" content="#000000"/><link rel="manifest" href="/add-to-home/manifest.json"/><link rel="shortcut icon" href="/add-to-home/favicon.ico"/><title>React App</title><script>if ('serviceWorker' in navigator) {
       console.log("browser supports service worker");
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/sw.js').then(function (registration) {
+        navigator.serviceWorker.register('/add-to-home/sw.js').then(function (registration) {
           // Registration was successful
           console.log('ServiceWorker registration successful with scope: ', registration.scope);
         }, function (err) {
